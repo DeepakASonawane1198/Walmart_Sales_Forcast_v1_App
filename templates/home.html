@@ -1,0 +1,27 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Walmart Sales Prediction </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Store :  <input type="text", name='Store', placeholder="e.g. 1"> <br><br>
+            Date :  <input type="text", name='Date', placeholder="e.g. 2010-02-05"> <br><br>
+            Weekly_Sales :  <input type="text", name='Weekly_Sales', placeholder="e.g. 123456.78"> <br><br>
+            Temperature : <input type="text", name='Temperature', placeholder="e.g. 42.31"> <br><br>
+		Fuel_Price :  <input type="text", name='Fuel_Price', placeholder="e.g. 2.572"> <br><br>
+            CPI :  <input type="text", name='CPI', placeholder="e.g. 211.096358"> <br><br>
+            Unemployment :  <input type="text", name='Unemployment', placeholder="e.g. 8.106"> <br><br>
+            IsHoliday : <input type="text", name='IsHoliday', placeholder="e.g. False"> <br><br>
+		Type :  <input type="text", name='Type', placeholder="e.g. A"> <br><br>
+            Size : <input type="text", name='Size', placeholder="e.g. 151315"> <br><br><br></b>
+            <input type="submit" , value='Predict!' >
+        </form>
+
+        <img src='static\flower1.jpg' alt="flower">
+        
+    </center>
+
+    </body>
+</html>
